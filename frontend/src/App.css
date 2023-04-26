@@ -1,0 +1,99 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #851ac8;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 250px;
+  padding-right: 425px;
+}
+body {
+  background-image: url('Home.png');
+  background-size: cover;
+  
+}
+
+
+
+.form-container-register {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding-top: 50px;  
+  padding-right: 250px;
+}
+
+
+
+
+.form-container-login {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding-top: 100px;  
+  padding-right: 350px;
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #851ac8;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  
+  
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #851ac8;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  
+  
+}
+
+button:hover {
+  background-color: #0062cc;
+}
